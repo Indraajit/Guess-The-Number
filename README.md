@@ -1,6 +1,6 @@
 # THIS REPOSITORY IS A PUBLIC
 
-Guess The Number you can play this game with you friends and use it as reference on
+Guess The Number you can play this game with you friends and use it as reference on https://indraajit.github.io/Guess-The-Number/
 
 <h1 align="center">
 <br>
