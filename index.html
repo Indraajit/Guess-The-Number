@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/IN Logo.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Indra Ajit's Guess the Number</h1>
+        <p>Guess the Numbers Between from (1 to 100) According to System Generate the Number Randomly Make sure You
+            Guess
+            the Number
+            Correctly. All the Best. ( Guess The Number You Have <span id="chance"></span> )
+        </p>
+
+        <form class="gen-form" onsubmit="event.preventDefault();">
+            <input type="text" id="user-input" placeholder="Type the Number" autocomplete="off">
+            <button id="resultbtn">Check</button>
+        </form>
+
+        <div class="res-grid">
+            <h3 id="result"></h3>
+        </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
